@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StorageTest</string>
+    <string name="provider_author" translatable="false">com.kelly.storage.fileprovider</string>
+</resources>

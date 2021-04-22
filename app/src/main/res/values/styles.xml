@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewPrimaryBtn">
+        <item name="android:ems">16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/style_round_btn_primary_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/style_btn_primary_tv_color</item>
+        <item name="android:stateListAnimator">@animator/animate_pressed_large_btn</item>
+        <item name="android:maxEms">16</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+</resources>

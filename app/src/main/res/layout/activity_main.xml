@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_tmp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@android:color/darker_gray"
+        android:scaleType="center"/>
+    <TextView
+        android:id="@+id/tv_tmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_private"
+        style="@style/TextViewPrimaryBtn"
+        android:text="Save in private" />
+
+    <TextView
+        android:id="@+id/tv_public"
+        style="@style/TextViewPrimaryBtn"
+        android:text="Save in public" />
+
+    <TextView
+        android:id="@+id/tv_r_public"
+        style="@style/TextViewPrimaryBtn"
+        android:text="Remove in public" />
+
+    <TextView
+        android:id="@+id/tv_log_public"
+        style="@style/TextViewPrimaryBtn"
+        android:text="Show in public" />
+</LinearLayout>
